@@ -1,0 +1,5 @@
+.idea/**https://github.com/TesterlifeRaymond/BeautifulReport
+.cache/**
+core/.cache/**
+*.pyc
+core/*.pyc

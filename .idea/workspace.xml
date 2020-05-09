@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a781c7b-5e6e-4141-b9ae-74aed7d9024f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="crm_test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="408">
+                <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>r = s.post(url,params=eval(data1[i]))</find>
+      <find>复活</find>
+      <find>from utils.test_excel import TestExcel</find>
+      <find>receive</find>
+      <find>https://crm-sea.neibu.koolearn.com/clue/receive_new_clue/list</find>
+      <find>from common.test_login import TestLogin,s</find>
+      <find>用户未登录，请重新登录</find>
+      <find>receive_new_clue_list</find>
+      <find>recover_clue</find>
+      <find>http://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=212870&amp;</find>
+      <find>https://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=2</find>
+      <find>https://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=212684&amp;</find>
+      <find>http://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail</find>
+      <find>url</find>
+      <find>r = s.get(url,params=eval(data1[i]))</find>
+      <find>http://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=212570&amp;</find>
+      <find>s.</find>
+      <find>https://crm-students.neibu.koolearn.com/studentInfo/detail?studId=34360204&amp;ssoId=73709293&amp;clueId=212570</find>
+      <find>http://crm-students.neibu.koolearn.com/studentInfo/detail?studId=34360204&amp;ssoId=73709293&amp;clueId=212570&amp;</find>
+      <find>http://crm-students.neibu.koolearn.com/studentInfo/detail?studId=34360204&amp;ssoId=73709293&amp;clueId=212570&amp;_=1588662481557</find>
+      <find>https://crm-students.neibu.koolearn.com/studentInfo/detail?studId=34360204&amp;ssoId=73709293&amp;clueId=212570&amp;_=1588662481557</find>
+      <find>https://crm-students.neibu.koolearn.com/studentInfo/detail?studId=34360204&amp;ssoId=73709293&amp;clueId=212570&amp;</find>
+      <find>get-clue-detail</find>
+      <find>https://crm-students.neibu.koolearn.com/studentInfo/detail?studId=3436</find>
+      <find>studentInfo</find>
+      <find>error_data</find>
+      <find>OperationJson</find>
+      <find>从json文件中拿取想要的数据test_json.py；</find>
+      <find>opera</find>
+      <find>响应内容</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/utils</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testcase/koolearn_login.py" />
+        <option value="$PROJECT_DIR$/report/Result.html" />
+        <option value="$PROJECT_DIR$/common/koolearn_login.py" />
+        <option value="$PROJECT_DIR$/config/constants.py" />
+        <option value="$PROJECT_DIR$/report/Runner.py" />
+        <option value="$PROJECT_DIR$/report/test_case01.py" />
+        <option value="$PROJECT_DIR$/report/Run.py" />
+        <option value="$PROJECT_DIR$/report/apitest.py" />
+        <option value="$PROJECT_DIR$/common/func.py" />
+        <option value="$PROJECT_DIR$/log/__init__.py" />
+        <option value="$PROJECT_DIR$/config/env1.py" />
+        <option value="$PROJECT_DIR$/run_case.py" />
+        <option value="$PROJECT_DIR$/common/request.py" />
+        <option value="$PROJECT_DIR$/common/crm_login.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/getManageList.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/assignClue.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/recover_clue.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/addNewClue.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/receive_new_clue.py" />
+        <option value="$PROJECT_DIR$/testcase/Student/StudentInfo.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/data/__init__.py" />
+        <option value="$PROJECT_DIR$/logs/__init__.py" />
+        <option value="$PROJECT_DIR$/common/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/ex.py" />
+        <option value="$PROJECT_DIR$/utils/test_resp_extract.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_addNewClue1.py" />
+        <option value="$PROJECT_DIR$/common/test_request.py" />
+        <option value="$PROJECT_DIR$/config/env.py" />
+        <option value="$PROJECT_DIR$/utils/test_response_extract.py" />
+        <option value="$PROJECT_DIR$/utils/test_excel1.py" />
+        <option value="$PROJECT_DIR$/utils/test_response.py" />
+        <option value="$PROJECT_DIR$/utils/test_cmp.py" />
+        <option value="$PROJECT_DIR$/utils/test_list_cmp.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_getManageList.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_cluelist.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_assignClue.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_receive_new_clue.py" />
+        <option value="$PROJECT_DIR$/common/test_login.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py" />
+        <option value="$PROJECT_DIR$/config/env2.py" />
+        <option value="$PROJECT_DIR$/testcase/Student/test_StudentInfo.py" />
+        <option value="$PROJECT_DIR$/utils/test_dict_cmp.py" />
+        <option value="$PROJECT_DIR$/json/data.json" />
+        <option value="$PROJECT_DIR$/testcase/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/test_json.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_addNewClue.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/ex.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_recover_clue.py" />
+        <option value="$PROJECT_DIR$/utils/test_excel.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="test_crm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/工作/test_crm" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/stepwise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="api4excel-master" is-module-sdk="true" working-directory="$PROJECT_DIR$">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="api4excel-master" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/testcase/Clue" />
+      <recent name="$PROJECT_DIR$/testcase/Student" />
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_cluelist">
+    <configuration name="test_StudentInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Student" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Student/test_StudentInfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_cluelist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Clue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_cluelist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_get-clue-detail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Clue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_receive_new_clue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Clue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_receive_new_clue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_recover_clue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Clue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_recover_clue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_cluelist" />
+        <item itemvalue="Python.test_StudentInfo" />
+        <item itemvalue="Python.test_get-clue-detail" />
+        <item itemvalue="Python.test_recover_clue" />
+        <item itemvalue="Python.test_receive_new_clue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a781c7b-5e6e-4141-b9ae-74aed7d9024f" name="Default Changelist" comment="" />
+      <created>1579509320000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579509320000</updated>
+      <workItem from="1579509321145" duration="11000" />
+      <workItem from="1579509408677" duration="148000" />
+      <workItem from="1579510015793" duration="2366000" />
+      <workItem from="1579512830817" duration="1405000" />
+      <workItem from="1579517284468" duration="2901000" />
+      <workItem from="1579521008979" duration="7374000" />
+      <workItem from="1579531860160" duration="848000" />
+      <workItem from="1579575414281" duration="1266000" />
+      <workItem from="1579577189574" duration="221000" />
+      <workItem from="1579578648582" duration="905000" />
+      <workItem from="1579593897930" duration="2290000" />
+      <workItem from="1579596617080" duration="6311000" />
+      <workItem from="1579605535375" duration="1378000" />
+      <workItem from="1579606990173" duration="928000" />
+      <workItem from="1579676038316" duration="12369000" />
+      <workItem from="1579694154656" duration="766000" />
+      <workItem from="1579694936618" duration="212000" />
+      <workItem from="1579695181087" duration="555000" />
+      <workItem from="1579695868735" duration="48000" />
+      <workItem from="1579695942333" duration="3355000" />
+      <workItem from="1579699736579" duration="1446000" />
+      <workItem from="1580036244248" duration="1782000" />
+      <workItem from="1580193768082" duration="1634000" />
+      <workItem from="1580407213283" duration="191000" />
+      <workItem from="1581387151994" duration="112000" />
+      <workItem from="1581517659643" duration="4029000" />
+      <workItem from="1581687352345" duration="6887000" />
+      <workItem from="1581750184451" duration="4000" />
+      <workItem from="1581752155743" duration="2875000" />
+      <workItem from="1581757403894" duration="3298000" />
+      <workItem from="1581763380769" duration="1554000" />
+      <workItem from="1582291088415" duration="2349000" />
+      <workItem from="1582293878987" duration="10032000" />
+      <workItem from="1582451136301" duration="5606000" />
+      <workItem from="1582641857856" duration="4603000" />
+      <workItem from="1582648300596" duration="1088000" />
+      <workItem from="1582649446218" duration="1176000" />
+      <workItem from="1582727356454" duration="1952000" />
+      <workItem from="1582819018741" duration="27000" />
+      <workItem from="1582903693595" duration="1265000" />
+      <workItem from="1582970313417" duration="138000" />
+      <workItem from="1582975675228" duration="4220000" />
+      <workItem from="1583056732707" duration="340000" />
+      <workItem from="1583057346209" duration="1851000" />
+      <workItem from="1583059379412" duration="2767000" />
+      <workItem from="1583065065111" duration="11247000" />
+      <workItem from="1583077791156" duration="6974000" />
+      <workItem from="1583087004358" duration="51000" />
+      <workItem from="1583116760931" duration="352000" />
+      <workItem from="1583130867615" duration="5283000" />
+      <workItem from="1583658965554" duration="3021000" />
+      <workItem from="1583765483624" duration="420000" />
+      <workItem from="1583948802187" duration="1028000" />
+      <workItem from="1584017897693" duration="2251000" />
+      <workItem from="1584157402634" duration="7338000" />
+      <workItem from="1584202009077" duration="24000" />
+      <workItem from="1584544784295" duration="288000" />
+      <workItem from="1584545099142" duration="3654000" />
+      <workItem from="1584624946881" duration="10138000" />
+      <workItem from="1584712769235" duration="6100000" />
+      <workItem from="1584779851265" duration="2712000" />
+      <workItem from="1584784105445" duration="4786000" />
+      <workItem from="1584793039225" duration="16419000" />
+      <workItem from="1584813097053" duration="219000" />
+      <workItem from="1584859394442" duration="4348000" />
+      <workItem from="1584864317751" duration="2590000" />
+      <workItem from="1584867599495" duration="645000" />
+      <workItem from="1584978566551" duration="1634000" />
+      <workItem from="1585324968743" duration="2957000" />
+      <workItem from="1585386805706" duration="3643000" />
+      <workItem from="1585411506737" duration="279000" />
+      <workItem from="1585411924811" duration="416000" />
+      <workItem from="1585462413460" duration="457000" />
+      <workItem from="1585467604465" duration="11672000" />
+      <workItem from="1585485032779" duration="1693000" />
+      <workItem from="1585489028765" duration="2704000" />
+      <workItem from="1585575519179" duration="3403000" />
+      <workItem from="1585579253501" duration="5340000" />
+      <workItem from="1585586010857" duration="2520000" />
+      <workItem from="1585665936773" duration="37000" />
+      <workItem from="1585665977672" duration="1981000" />
+      <workItem from="1585990393541" duration="1372000" />
+      <workItem from="1586161826775" duration="1621000" />
+      <workItem from="1586164707047" duration="156000" />
+      <workItem from="1586767809314" duration="4437000" />
+      <workItem from="1587054207860" duration="609000" />
+      <workItem from="1587214774563" duration="2921000" />
+      <workItem from="1587481377588" duration="6007000" />
+      <workItem from="1587808729355" duration="3112000" />
+      <workItem from="1587814164076" duration="1804000" />
+      <workItem from="1587816009435" duration="11206000" />
+      <workItem from="1587841568055" duration="1167000" />
+      <workItem from="1588042054429" duration="4019000" />
+      <workItem from="1588055967896" duration="861000" />
+      <workItem from="1588061664484" duration="2344000" />
+      <workItem from="1588082922542" duration="29000" />
+      <workItem from="1588257583204" duration="10101000" />
+      <workItem from="1588316108794" duration="9407000" />
+      <workItem from="1588335295238" duration="4124000" />
+      <workItem from="1588412287050" duration="334000" />
+      <workItem from="1588428359906" duration="4322000" />
+      <workItem from="1588476654293" duration="3925000" />
+      <workItem from="1588514132719" duration="4692000" />
+      <workItem from="1588521753475" duration="2672000" />
+      <workItem from="1588524770804" duration="663000" />
+      <workItem from="1588526395751" duration="44000" />
+      <workItem from="1588526450647" duration="312000" />
+      <workItem from="1588569409150" duration="880000" />
+      <workItem from="1588601961748" duration="4506000" />
+      <workItem from="1588645281010" duration="12503000" />
+      <workItem from="1588667257980" duration="864000" />
+      <workItem from="1588668820612" duration="167000" />
+      <workItem from="1588670214723" duration="217000" />
+      <workItem from="1588670597650" duration="8000" />
+      <workItem from="1588670809094" duration="4582000" />
+      <workItem from="1588688546285" duration="3967000" />
+      <workItem from="1588692545179" duration="956000" />
+      <workItem from="1588732025347" duration="728000" />
+      <workItem from="1588732969132" duration="87000" />
+      <workItem from="1588738125857" duration="1382000" />
+      <workItem from="1588757208843" duration="5790000" />
+      <workItem from="1588819573021" duration="2000" />
+      <workItem from="1588819695666" duration="632000" />
+      <workItem from="1589028309759" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_Run_py - 2020.01.22 at 18h 01m 47s.xml">
+      <configuration name="Unittests in Run.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Run_py - 2020.01.22 at 18h 11m 17s.xml">
+      <configuration name="Unittests in Run.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_addNewClue_py - 2020.05.06 at 10h 42m 14s.xml">
+      <configuration name="pytest in test_addNewClue.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_addNewClue_py - 2020.05.06 at 10h 42m 18s.xml">
+      <configuration name="pytest in test_addNewClue.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_addNewClue_py - 2020.05.06 at 10h 42m 34s.xml">
+      <configuration name="pytest in test_addNewClue.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_addNewClue_py - 2020.05.06 at 10h 42m 59s.xml">
+      <configuration name="pytest in test_addNewClue.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_addNewClue_py - 2020.05.06 at 10h 44m 11s.xml">
+      <configuration name="pytest in test_addNewClue.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="355057000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="23" width="1920" height="996" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24431819" />
+      <window_info anchor="bottom" x="1669" y="446" width="1363" height="248" id="Run" order="2" weight="0.26962456" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3625" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3272727" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3272727" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32960597" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" x="1669" y="446" width="1363" height="248" id="Run" order="2" visible="true" weight="0.36704546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3625" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3272727" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32960597" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crm_test$crm_login.coverage" NAME="crm_login Coverage Results" MODIFIED="1581519360093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/crm_test$test_excel.coverage" NAME="test_excel Coverage Results" MODIFIED="1588270014328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/test_crm$test_cluelist.coverage" NAME="test_cluelist Coverage Results" MODIFIED="1588831361611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_receive_new_clue.coverage" NAME="test_receive_new_clue Coverage Results" MODIFIED="1583072885224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1579531990377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/crm_test$Unittests_in_Run_py.coverage" NAME="Unittests in Run.py Coverage Results" MODIFIED="1579687877578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/crm_test$test_addNewClue.coverage" NAME="test_addNewClue Coverage Results" MODIFIED="1588324823467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/test_crm$test_list_cmp.coverage" NAME="test_list_cmp Coverage Results" MODIFIED="1588690070919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/crm_test$test_response_extract.coverage" NAME="test_response_extract Coverage Results" MODIFIED="1587832975240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/crm_test$test_StudentInfo.coverage" NAME="test_StudentInfo Coverage Results" MODIFIED="1583077905503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Student" />
+    <SUITE FILE_PATH="coverage/test_crm$pytest_in_test_addNewClue_py.coverage" NAME="pytest in test_addNewClue.py Coverage Results" MODIFIED="1588733047860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_request.coverage" NAME="test_request Coverage Results" MODIFIED="1587815813192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/crm_test$BeautifulReport.coverage" NAME="BeautifulReport Coverage Results" MODIFIED="1579695166604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.7/site-packages" />
+    <SUITE FILE_PATH="coverage/test_crm$test_get_clue_detail.coverage" NAME="test_get-clue-detail Coverage Results" MODIFIED="1588773692664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_response.coverage" NAME="test_response Coverage Results" MODIFIED="1588403314316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/test_crm$test_response.coverage" NAME="test_response Coverage Results" MODIFIED="1588431794953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/crm_test$receive_new_clue.coverage" NAME="receive_new_clue Coverage Results" MODIFIED="1582455208443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_cmp.coverage" NAME="test_cmp Coverage Results" MODIFIED="1587838621757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/test_crm$test_recover_clue.coverage" NAME="test_recover_clue Coverage Results" MODIFIED="1588773587612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$getManageList.coverage" NAME="getManageList Coverage Results" MODIFIED="1582378816541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_addNewClue1.coverage" NAME="test_addNewClue1 Coverage Results" MODIFIED="1585472071025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$ex.coverage" NAME="ex Coverage Results" MODIFIED="1588268074657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/test_crm$test_addNewClue.coverage" NAME="test_addNewClue Coverage Results" MODIFIED="1588773262724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_excel1.coverage" NAME="test_excel1 Coverage Results" MODIFIED="1587838278971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/test_crm$test_StudentInfo.coverage" NAME="test_StudentInfo Coverage Results" MODIFIED="1588831353888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Student" />
+    <SUITE FILE_PATH="coverage/crm_test$assignClue.coverage" NAME="assignClue Coverage Results" MODIFIED="1582370854176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/test_crm$test_assignClue.coverage" NAME="test_assignClue Coverage Results" MODIFIED="1588773203834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_recover_clue.coverage" NAME="test_recover_clue Coverage Results" MODIFIED="1583072861719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_getManageList.coverage" NAME="test_getManageList Coverage Results" MODIFIED="1583072900702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1584026407446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/crm_test$Runner.coverage" NAME="Runner Coverage Results" MODIFIED="1580193886294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/crm_test$addNewClue.coverage" NAME="addNewClue Coverage Results" MODIFIED="1582455256652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/test_crm$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1588602242528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/test_crm$test_receive_new_clue.coverage" NAME="test_receive_new_clue Coverage Results" MODIFIED="1588773581312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$test_assignClue.coverage" NAME="test_assignClue Coverage Results" MODIFIED="1583148913818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$StudentInfo.coverage" NAME="StudentInfo Coverage Results" MODIFIED="1579596725697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/crm_test$apitest.coverage" NAME="apitest Coverage Results" MODIFIED="1580193875116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/test_crm$ex.coverage" NAME="ex Coverage Results" MODIFIED="1588772547985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/crm_test$ClueList.coverage" NAME="ClueList Coverage Results" MODIFIED="1579532085289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue1.py" />
+    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/types.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2/types.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/utils/cell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/reader/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1623">
+          <caret line="297" column="147" selection-start-line="297" selection-start-column="142" selection-end-line="297" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/crm_test 2/testcase/Clue/test_addNewClue.py" />
+    <entry file="file://$USER_HOME$/Desktop/crm_test 2/testcase/Clue/test_addNewClue2.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue2.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/workbook/workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="378" column="8" selection-start-line="378" selection-start-column="8" selection-end-line="378" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Sendmail.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/worksheet/_read_only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/worksheet/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="213" column="8" selection-start-line="213" selection-start-column="8" selection-end-line="213" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/602137995/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="2978" column="8" selection-start-line="2978" selection-start-column="8" selection-end-line="2978" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="569" column="8" selection-start-line="569" selection-start-column="8" selection-end-line="569" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="614" column="13" selection-start-line="614" selection-start-column="13" selection-end-line="614" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_list_cmp.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/nodeids">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/CACHEDIR.TAG">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret lean-forward="true" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/stepwise">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/koolearn_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#145#160#0" expanded="true" />
+            <element signature="e#232#1654#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+          <folding>
+            <element signature="e#141#156#0" expanded="true" />
+            <element signature="e#296#715#0" />
+            <element signature="e#740#761#0" />
+            <element signature="e#937#1513#0" />
+            <element signature="e#1847#2685#0" />
+            <element signature="e#2702#2862#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/test_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#144#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/cookie.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#136#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_assignClue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#146#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_receive_new_clue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_recover_clue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#148#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_dict_cmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+          <folding>
+            <element signature="e#159#836#0" />
+            <element signature="e#847#1524#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_excel1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#295#564#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#160#866#0" />
+            <element signature="e#877#1583#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_response_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Student/test_StudentInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="e#147#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_cluelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="e#154#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

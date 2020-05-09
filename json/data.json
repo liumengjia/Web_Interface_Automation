@@ -1,0 +1,23 @@
+{
+	"page": "1",
+	"pageSize": "10",
+	"userName": "",
+	"realName": "",
+	"studId": "",
+	"qq": "",
+	"weixin": "",
+	"country": "CHN",
+	"nationCode": "86",
+	"phone": "",
+	"productGroupIds": "",
+	"productTypeName": "",
+	"recycleReasonStr": "",
+	"reasonStr": "",
+	"secondIntentionSource": "",
+	"productId": "",
+	"intentionSource": "",
+	"jobNumTag": "",
+	"jobValidNumTag": "",
+	"secondLabelIds": "",
+	"lastFollowSysUid": ""
+}
