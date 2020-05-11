@@ -24,7 +24,7 @@ expect_result = [item['expect_result'] for item in data]
 
 def test_studentInfo():
 
-    url = 'https://crm-students.neibu.koolearn.com/studentInfo/detail'
+    url = 'https://crm-students.neibu.com/studentInfo/detail'
 
     for i in range(len(data1)):
         print('data是%s' % data1[i])

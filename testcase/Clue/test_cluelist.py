@@ -25,7 +25,7 @@ expect_result = [item['expect_result'] for item in data]
 
 def test_cluelist():
 
-    url = "https://crm-sea.neibu.koolearn.com/clueManage/list"
+    url = "https://crm-sea.neibu.com/clueManage/list"
 
     for i in range(len(data1)):
 

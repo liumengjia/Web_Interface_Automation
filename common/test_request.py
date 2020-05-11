@@ -35,7 +35,7 @@ class TestRequest():
         return res
 
 if __name__=="__main__":
-    url = "http://crm-sea.neibu.koolearn.com/"
+    url = "http://crm-sea.neibu.com/"
 
     # 使用__init__方法实现：只要实例化类时候就会调用__init__方法
     res = TestRequest(url,params=None,data=None,method="post")

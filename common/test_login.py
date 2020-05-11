@@ -37,8 +37,8 @@ class TestLogin():
 
     def test_get_lt(self):  # 获取lt方法
         result = {}
-        url1 = "https://cas-sso.neibu.koolearn.com"
-        service = "http://security-maintain.neibu.koolearn.com/security/j_spring_cas_security_check"
+        url1 = "https://cas-sso.neibu.com"
+        service = "http://security-maintain.neibu.com/security/j_spring_cas_security_check"
         loginurl = url1 + '/login?service=%s' % (service)
 
         r = s.get(loginurl, headers=h1, allow_redirects=False, verify=False)
@@ -57,8 +57,8 @@ class TestLogin():
     def test_login(self,uname,pwd):
         result, r2 = self.test_get_lt()
 
-        url2 = "https://cas-sso.neibu.koolearn.com"
-        service2 = "http://security-maintain.neibu.koolearn.com/security/j_spring_cas_security_check"
+        url2 = "https://cas-sso.neibu.com"
+        service2 = "http://security-maintain.neibu.com/security/j_spring_cas_security_check"
         url3 = url2 + "/login;jsessionid=%s?service=%s" % (r2["JSESSIONID"], service2)
 
         h2 = {
@@ -69,8 +69,8 @@ class TestLogin():
             "Content-Length": "157",
             "Content-Type": "application/x-www-form-urlencoded",
             "Cookie":"JSESSIONID=%s" % (r2["JSESSIONID"]),
-            "Origin":"https://cas-sso.neibu.koolearn.com",
-            "Referer":"https://cas-sso.neibu.koolearn.com/login?service=http%3A%2F%2Fsecurity-maintain.neibu.koolearn.com%2Fsecurity%2Fj_spring_cas_security_check",
+            "Origin":"https://cas-sso.neibu.com",
+            "Referer":"https://cas-sso.neibu.com/login?service=http%3A%2F%2Fsecurity-maintain.neibu.com%2Fsecurity%2Fj_spring_cas_security_check",
             "Upgrade-Insecure-Requests":"1",
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:72.0) Gecko/20100101 Firefox/72.0"
         }

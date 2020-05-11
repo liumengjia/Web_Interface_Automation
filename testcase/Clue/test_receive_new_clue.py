@@ -24,7 +24,7 @@ expect_result = [item['expect_result'] for item in data]
 
 def test_receive_new_clue_list():
 
-    url = "https://crm-sea.neibu.koolearn.com/clue/receive_new_clue/list"
+    url = "https://crm-sea.neibu.com/clue/receive_new_clue/list"
 
     for i in range(len(data1)):
         print('data是%s'%data1[i])

@@ -24,7 +24,7 @@ expect_result = [item['expect_result'] for item in data]
 
 def test_addNewClue():
 
-    url = "http://crm-sea.neibu.koolearn.com/clue/addNewClue"
+    url = "http://crm-sea.neibu.com/clue/addNewClue"
 
     for i in range(len(data1)):
         print('data是%s'%data1[i])

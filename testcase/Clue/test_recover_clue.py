@@ -24,7 +24,7 @@ expect_result = [item['expect_result'] for item in data]
 
 def test_recover_clue():
 
-    url = "https://crm-sea.neibu.koolearn.com/clueManage/recover_clue"
+    url = "https://crm-sea.neibu.com/clueManage/recover_clue"
 
     for i in range(len(data1)):
         print('data是%s'%data1[i])
