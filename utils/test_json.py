@@ -10,7 +10,7 @@
 
 import json
 
-# 从json文件中拿取想要的数据test_json.py；
+# 从json文件中获取想要的数据test_json.py；
 
 class Test_json:
 

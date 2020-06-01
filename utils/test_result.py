@@ -4,7 +4,7 @@
 
 # @Author : liumengjia
 
-# @File : test_dict_cmp.py
+# @File : test_result.py
 
 # @Software: PyCharm
 
@@ -72,14 +72,14 @@ response={
   'page': 1
 }
 
-def test_cmp(expect_result,response):
+def test_result(expect_result,response):
     temp_data = {}
     temp_data["error_data"] = " "
     flag=0
 
     for key in expect_result:
         if isinstance(expect_result[key],dict):
-            if not test_cmp(expect_result[key],response.get(key)):
+            if not test_result(expect_result[key],response.get(key)):
                 return False
 
         elif isinstance(expect_result[key],list):
@@ -88,7 +88,7 @@ def test_cmp(expect_result,response):
                     if not response[key]:
                         raise "{}返回数据为空".format(key)
 
-                    if test_cmp(expect_result[key][expect_index],response[key][response_index]):
+                    if test_result(expect_result[key][expect_index],response[key][response_index]):
                         # 当存在相同数据，flag为真，结束该轮循环
                         flag = 1
                         break
@@ -107,5 +107,5 @@ def test_cmp(expect_result,response):
 
     return True
 
-test_cmp(expect_result,response)
+test_result(expect_result,response)
 

@@ -4,6 +4,6 @@
 
 # @Author : liumengjia
 
-# @File : __init__.py.py 
+# @File : __init__.py
 
 # @Software: PyCharm

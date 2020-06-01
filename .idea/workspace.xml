@@ -2,21 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a781c7b-5e6e-4141-b9ae-74aed7d9024f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../test_crm.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pre/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pre/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/test_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/test_excel2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api4excel-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api4excel-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/koolearn_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/test_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Clue/test_addNewClue.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/test_addNewClue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Clue/test_assignClue.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/test_assignClue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Clue/test_cluelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/test_cluelist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Clue/test_receive_new_clue.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/test_receive_new_clue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Clue/test_recover_clue.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/test_recover_clue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/Student/test_StudentInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Student/test_StudentInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_clue.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_clue.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/logs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/Clue/ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/Clue/ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test_dict_cmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.idea/api4excel-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.idea/emacs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/common/koolearn_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/common/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/common/test_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/config/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/data/test_addNewClue_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/data/test_clue.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/data/test_student.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/json/cookie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/json/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/logs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/ex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/test_addNewClue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/test_assignClue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/test_cluelist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/test_get-clue-detail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/test_receive_new_clue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Clue/test_recover_clue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/Student/test_StudentInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/testcase/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/utils/test_dict_cmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/utils/test_excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/utils/test_excel1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/utils/test_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/utils/test_response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test_crm/utils/test_response_extract.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +87,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/Clue/ex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/test_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/cookie.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/test_log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="n#!!doc" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -66,19 +186,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>from utils.test_excel import TestExcel</find>
-      <find>receive</find>
-      <find>https://crm-sea.neibu.koolearn.com/clue/receive_new_clue/list</find>
-      <find>from common.test_login import TestLogin,s</find>
-      <find>用户未登录，请重新登录</find>
-      <find>receive_new_clue_list</find>
-      <find>recover_clue</find>
-      <find>http://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=212870&amp;</find>
-      <find>https://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=2</find>
-      <find>https://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=212684&amp;</find>
-      <find>http://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail</find>
-      <find>url</find>
-      <find>r = s.get(url,params=eval(data1[i]))</find>
       <find>http://crm-students.neibu.koolearn.com/studentInfo/get-clue-detail?clueId=212570&amp;</find>
       <find>s.</find>
       <find>https://crm-students.neibu.koolearn.com/studentInfo/detail?studId=34360204&amp;ssoId=73709293&amp;clueId=212570</find>
@@ -90,12 +197,25 @@
       <find>https://crm-students.neibu.koolearn.com/studentInfo/detail?studId=3436</find>
       <find>studentInfo</find>
       <find>error_data</find>
-      <find>OperationJson</find>
       <find>从json文件中拿取想要的数据test_json.py；</find>
       <find>opera</find>
       <find>响应内容</find>
-      <find>koolearn</find>
       <find>koolear</find>
+      <find>koo</find>
+      <find>koole</find>
+      <find>append</find>
+      <find>{&quot;status&quot;:&quot;400&quot;,&quot;message&quot;:&quot;null&quot;,&quot;data&quot;:&quot;没有找到上线用户，请确认&quot;,&quot;success&quot;:&quot;false&quot;}</find>
+      <find>{&quot;status&quot;:&quot;0&quot;,&quot;message&quot;:&quot;null&quot;,&quot;data&quot;:&quot;分配成功&quot;,&quot;success&quot;:&quot;true&quot;}</find>
+      <find>actual_data</find>
+      <find># 从json文件中拿取想要的数据test_json.py；</find>
+      <find>OperationJson</find>
+      <find>从json文件中获取想要的数据，test_json.p</find>
+      <find>flag</find>
+      <find>test_result</find>
+      <find>test_response_extract</find>
+      <find>koolearn</find>
+      <find>crm</find>
+      <find>pre: https://pre.ke.yanxian.org</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/utils</dir>
@@ -107,12 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testcase/koolearn_login.py" />
-        <option value="$PROJECT_DIR$/report/Result.html" />
-        <option value="$PROJECT_DIR$/common/koolearn_login.py" />
-        <option value="$PROJECT_DIR$/config/constants.py" />
-        <option value="$PROJECT_DIR$/report/Runner.py" />
-        <option value="$PROJECT_DIR$/report/test_case01.py" />
         <option value="$PROJECT_DIR$/report/Run.py" />
         <option value="$PROJECT_DIR$/report/apitest.py" />
         <option value="$PROJECT_DIR$/common/func.py" />
@@ -127,10 +241,6 @@
         <option value="$PROJECT_DIR$/testcase/Clue/addNewClue.py" />
         <option value="$PROJECT_DIR$/testcase/Clue/receive_new_clue.py" />
         <option value="$PROJECT_DIR$/testcase/Student/StudentInfo.py" />
-        <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/data/__init__.py" />
-        <option value="$PROJECT_DIR$/logs/__init__.py" />
-        <option value="$PROJECT_DIR$/common/__init__.py" />
         <option value="$PROJECT_DIR$/utils/ex.py" />
         <option value="$PROJECT_DIR$/utils/test_resp_extract.py" />
         <option value="$PROJECT_DIR$/testcase/Clue/test_addNewClue1.py" />
@@ -141,16 +251,9 @@
         <option value="$PROJECT_DIR$/utils/test_list_cmp.py" />
         <option value="$PROJECT_DIR$/testcase/Clue/test_getManageList.py" />
         <option value="$PROJECT_DIR$/config/env2.py" />
-        <option value="$PROJECT_DIR$/utils/test_dict_cmp.py" />
         <option value="$PROJECT_DIR$/json/data.json" />
-        <option value="$PROJECT_DIR$/testcase/__init__.py" />
-        <option value="$PROJECT_DIR$/utils/test_json.py" />
-        <option value="$PROJECT_DIR$/testcase/Clue/ex.py" />
-        <option value="$PROJECT_DIR$/utils/test_excel.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/env.py" />
         <option value="$PROJECT_DIR$/common/test_login.py" />
-        <option value="$PROJECT_DIR$/testcase/Clue/test_addNewClue.py" />
         <option value="$PROJECT_DIR$/testcase/Clue/test_assignClue.py" />
         <option value="$PROJECT_DIR$/testcase/Clue/test_cluelist.py" />
         <option value="$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py" />
@@ -158,33 +261,74 @@
         <option value="$PROJECT_DIR$/testcase/Clue/test_recover_clue.py" />
         <option value="$PROJECT_DIR$/testcase/Student/test_StudentInfo.py" />
         <option value="$PROJECT_DIR$/common/test_request.py" />
+        <option value="$PROJECT_DIR$/logs/__init__.py" />
+        <option value="$PROJECT_DIR$/data/__init__.py" />
+        <option value="$PROJECT_DIR$/common/__init__.py" />
+        <option value="$PROJECT_DIR$/testcase/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/test_excel.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/test_addNewClue.py" />
+        <option value="$PROJECT_DIR$/utils/test_dict_cmp.py" />
+        <option value="$PROJECT_DIR$/utils/test_excel2.py" />
+        <option value="$PROJECT_DIR$/logs/test_log.py" />
+        <option value="$PROJECT_DIR$/utils/test_json.py" />
+        <option value="$PROJECT_DIR$/config/prod/config.yaml" />
+        <option value="$PROJECT_DIR$/config/pre/config.yaml" />
+        <option value="$PROJECT_DIR$/config/test/config.yaml" />
+        <option value="$PROJECT_DIR$/config/__init__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/testcase/Clue/ex.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1440" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="995" />
+    <option name="height" value="996" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="test_crm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/PycharmProjects/工作/test_crm" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Web_Interface_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Interface_Automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Interface_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Interface_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Interface_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Interface_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="Clue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Interface_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Interface_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="Student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Interface_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Interface_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,52 +379,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.koolearn_login">
-    <configuration name="koolearn_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="api4excel-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/koolearn_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_StudentInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="api4excel-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Student" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Student/test_StudentInfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_cluelist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ex">
+    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api4excel-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,7 +393,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_cluelist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +402,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_get-clue-detail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_dict_cmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api4excel-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,12 +410,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Clue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_get-clue-detail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_result.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,7 +424,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_recover_clue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_excel2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api4excel-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,12 +432,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Clue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/Clue/test_recover_clue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_excel2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_response" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_response.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_response_extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="api4excel-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test_response_extract.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,11 +492,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.koolearn_login" />
-        <item itemvalue="Python.test_cluelist" />
-        <item itemvalue="Python.test_StudentInfo" />
-        <item itemvalue="Python.test_get-clue-detail" />
-        <item itemvalue="Python.test_recover_clue" />
+        <item itemvalue="Python.ex" />
+        <item itemvalue="Python.test_response_extract" />
+        <item itemvalue="Python.test_dict_cmp" />
+        <item itemvalue="Python.test_response" />
+        <item itemvalue="Python.test_excel2" />
       </list>
     </recent_temporary>
   </component>
@@ -492,6 +636,26 @@
       <workItem from="1589028309759" duration="18000" />
       <workItem from="1589111765376" duration="927000" />
       <workItem from="1589194805275" duration="973000" />
+      <workItem from="1589771867578" duration="584000" />
+      <workItem from="1589813819265" duration="273000" />
+      <workItem from="1589859020873" duration="1822000" />
+      <workItem from="1589954713359" duration="6100000" />
+      <workItem from="1590203099320" duration="343000" />
+      <workItem from="1590218249755" duration="1577000" />
+      <workItem from="1590290303768" duration="1750000" />
+      <workItem from="1590377587205" duration="8094000" />
+      <workItem from="1590421755903" duration="1188000" />
+      <workItem from="1590423002797" duration="156000" />
+      <workItem from="1590423165036" duration="131000" />
+      <workItem from="1590423326955" duration="1167000" />
+      <workItem from="1590464487023" duration="270000" />
+      <workItem from="1590473394317" duration="10000" />
+      <workItem from="1590473414223" duration="375000" />
+      <workItem from="1590485066354" duration="490000" />
+      <workItem from="1590498241126" duration="436000" />
+      <workItem from="1590741519631" duration="4567000" />
+      <workItem from="1590921082209" duration="978000" />
+      <workItem from="1590942620549" duration="5100000" />
     </task>
     <servers />
   </component>
@@ -519,7 +683,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356957000" />
+    <option name="totallyTimeSpent" value="392368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,15 +695,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="995" extended-state="0" />
+    <frame x="1440" y="23" width="1920" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18956336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14270501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973376" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.24431819" />
-      <window_info anchor="bottom" x="1669" y="446" width="1363" height="248" id="Run" order="2" weight="0.2693182" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.323496" />
+      <window_info active="true" anchor="bottom" x="1669" y="446" width="1363" height="248" id="Run" order="2" visible="true" weight="0.26901248" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3625" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,6 +749,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/crm_test$crm_login.coverage" NAME="crm_login Coverage Results" MODIFIED="1581519360093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/test_crm$test_excel2.coverage" NAME="test_excel2 Coverage Results" MODIFIED="1590860369046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/crm_test$test_excel.coverage" NAME="test_excel Coverage Results" MODIFIED="1588270014328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/test_crm$test_cluelist.coverage" NAME="test_cluelist Coverage Results" MODIFIED="1588831361611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_receive_new_clue.coverage" NAME="test_receive_new_clue Coverage Results" MODIFIED="1583072885224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
@@ -595,20 +760,25 @@
     <SUITE FILE_PATH="coverage/crm_test$test_response_extract.coverage" NAME="test_response_extract Coverage Results" MODIFIED="1587832975240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/crm_test$test_StudentInfo.coverage" NAME="test_StudentInfo Coverage Results" MODIFIED="1583077905503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Student" />
     <SUITE FILE_PATH="coverage/test_crm$pytest_in_test_addNewClue_py.coverage" NAME="pytest in test_addNewClue.py Coverage Results" MODIFIED="1588733047860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/Web_Interface_Automation$test_response_extract.coverage" NAME="test_response_extract Coverage Results" MODIFIED="1590943052663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/crm_test$test_request.coverage" NAME="test_request Coverage Results" MODIFIED="1587815813192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/crm_test$BeautifulReport.coverage" NAME="BeautifulReport Coverage Results" MODIFIED="1579695166604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.7/site-packages" />
     <SUITE FILE_PATH="coverage/test_crm$test_get_clue_detail.coverage" NAME="test_get-clue-detail Coverage Results" MODIFIED="1588773692664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_response.coverage" NAME="test_response Coverage Results" MODIFIED="1588403314316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/test_crm$test_response.coverage" NAME="test_response Coverage Results" MODIFIED="1588431794953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/test_crm$test_response.coverage" NAME="test_response Coverage Results" MODIFIED="1590860420666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Web_Interface_Automation$test_dict_cmp.coverage" NAME="test_dict_cmp Coverage Results" MODIFIED="1590943033936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/crm_test$receive_new_clue.coverage" NAME="receive_new_clue Coverage Results" MODIFIED="1582455208443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_cmp.coverage" NAME="test_cmp Coverage Results" MODIFIED="1587838621757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/test_crm$test_response_extract.coverage" NAME="test_response_extract Coverage Results" MODIFIED="1590860425095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/test_crm$test_recover_clue.coverage" NAME="test_recover_clue Coverage Results" MODIFIED="1588773587612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$getManageList.coverage" NAME="getManageList Coverage Results" MODIFIED="1582378816541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_addNewClue1.coverage" NAME="test_addNewClue1 Coverage Results" MODIFIED="1585472071025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/Web_Interface_Automation$test_response.coverage" NAME="test_response Coverage Results" MODIFIED="1590942944399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/crm_test$ex.coverage" NAME="ex Coverage Results" MODIFIED="1588268074657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/test_crm$test_addNewClue.coverage" NAME="test_addNewClue Coverage Results" MODIFIED="1588773262724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_excel1.coverage" NAME="test_excel1 Coverage Results" MODIFIED="1587838278971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/test_crm$test_StudentInfo.coverage" NAME="test_StudentInfo Coverage Results" MODIFIED="1588831353888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Student" />
+    <SUITE FILE_PATH="coverage/test_crm$test_dict_cmp.coverage" NAME="test_dict_cmp Coverage Results" MODIFIED="1590860438629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/crm_test$assignClue.coverage" NAME="assignClue Coverage Results" MODIFIED="1582370854176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/test_crm$test_assignClue.coverage" NAME="test_assignClue Coverage Results" MODIFIED="1588773203834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_recover_clue.coverage" NAME="test_recover_clue Coverage Results" MODIFIED="1583072861719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
@@ -619,56 +789,15 @@
     <SUITE FILE_PATH="coverage/test_crm$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1588602242528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/test_crm$test_receive_new_clue.coverage" NAME="test_receive_new_clue Coverage Results" MODIFIED="1588773581312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$test_assignClue.coverage" NAME="test_assignClue Coverage Results" MODIFIED="1583148913818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/Web_Interface_Automation$test_excel2.coverage" NAME="test_excel2 Coverage Results" MODIFIED="1590942924135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Web_Interface_Automation$ex.coverage" NAME="ex Coverage Results" MODIFIED="1590991380386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/test_crm$koolearn_login.coverage" NAME="koolearn_login Coverage Results" MODIFIED="1589195755575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/crm_test$StudentInfo.coverage" NAME="StudentInfo Coverage Results" MODIFIED="1579596725697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/crm_test$apitest.coverage" NAME="apitest Coverage Results" MODIFIED="1580193875116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
-    <SUITE FILE_PATH="coverage/test_crm$ex.coverage" NAME="ex Coverage Results" MODIFIED="1588772547985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
+    <SUITE FILE_PATH="coverage/test_crm$ex.coverage" NAME="ex Coverage Results" MODIFIED="1589964740807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/Clue" />
     <SUITE FILE_PATH="coverage/crm_test$ClueList.coverage" NAME="ClueList Coverage Results" MODIFIED="1579532085289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue1.py" />
-    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="340" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/types.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2/types.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="354" selection-start-line="354" selection-end-line="354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/utils/cell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/openpyxl/reader/excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1623">
-          <caret line="297" column="147" selection-start-line="297" selection-start-column="142" selection-end-line="297" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/crm_test 2/testcase/Clue/test_addNewClue.py" />
     <entry file="file://$USER_HOME$/Desktop/crm_test 2/testcase/Clue/test_addNewClue2.py" />
     <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue2.py" />
@@ -710,174 +839,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/test_list_cmp.py" />
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/lastfailed">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/nodeids">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/CACHEDIR.TAG">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/stepwise">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/cookie.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test_excel1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#295#564#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/koolearn_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="e#145#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test_response_extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test_response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#160#866#0" />
-            <element signature="e#877#1583#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
-          <folding>
-            <element signature="e#141#156#0" expanded="true" />
-            <element signature="e#740#761#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/test_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#144#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#136#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_assignClue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#146#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/lastfailed" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/nodeids" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/CACHEDIR.TAG" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/README.md" />
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/.pytest_cache/v/cache/stepwise" />
+    <entry file="file://$PROJECT_DIR$/common/koolearn_login.py" />
     <entry file="file://$PROJECT_DIR$/testcase/Clue/test_cluelist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -915,41 +883,231 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_assignClue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Student/test_StudentInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#147#188#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/test_dict_cmp.py">
+    <entry file="file://$PROJECT_DIR$/utils/test_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+        <state relative-caret-position="-33">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_excel1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="e#159#836#0" />
-            <element signature="e#847#1524#0" />
+            <element signature="e#295#564#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_excel2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#144#178#0" expanded="true" />
+            <element signature="e#254#866#0" />
+            <element signature="e#303#460#0" />
+            <element signature="e#504#663#0" />
+            <element signature="e#709#866#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="90" column="28" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#157#834#0" />
+            <element signature="e#845#1522#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_response_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="118" column="25" lean-forward="true" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#160#866#0" />
+            <element signature="e#877#1583#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/test_addNewClue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#136#177#0" expanded="true" />
+            <element signature="e#1097#1128#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pre/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="e#141#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/test_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#144#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/cookie.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Clue/ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
