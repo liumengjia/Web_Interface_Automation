@@ -89,4 +89,4 @@ class TestLogin():
         # print (u'响应内容：',r.text)
 
 #if __name__ == "__main__":
-login1 = TestLogin().test_login(uname="superadmin",pwd="000000")
+login1 = TestLogin().test_login(uname="admin",pwd="123456")
