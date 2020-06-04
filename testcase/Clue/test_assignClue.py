@@ -8,6 +8,8 @@
 
 # @Software: PyCharm
 
+import pytest
+import allure
 from common.test_login import TestLogin,s
 from utils.test_excel import TestExcel
 
@@ -22,6 +24,9 @@ data = wb.test_get_data()
 data1 = [item['data'] for item in data]
 expect_result = [item['expect_result'] for item in data]
 
+@allure.feature("线索列表")  # 用feature说明产品需求，可以理解为JIRA中的Epic
+@allure.story("分配线索")  # 用story说明用户场景，可以理解为JIRA中的Story
+@pytest.fixture(scope="function")
 def test_assignClue():
 
     url = "https://crm-sea.neibu.com/clueManage/assignClue"

@@ -1,0 +1,61 @@
+{
+  "uid" : "e55c687bf967544c",
+  "name" : "test_zero_divison",
+  "fullName" : "tests.test_assertions#test_zero_divison",
+  "historyId" : "a3f01f05f43e1c312d06cc3fb4e34b81",
+  "time" : {
+    "start" : 1591177964108,
+    "stop" : 1591177964109,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2ebc2ac08a1108fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591176793784,
+        "stop" : 1591176793784,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e55c687bf967544c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "3fc2cd08e46dee9b",
+  "name" : "test_string_3",
+  "fullName" : "tests.test_assertions.TestStringAssertions#test_string_3",
+  "historyId" : "a20113d4dc1fbffdc25108fbe291e249",
+  "time" : {
+    "start" : 1591177964069,
+    "stop" : 1591177964070,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'foo\\nspam\\nbar' == 'foo\\neggs\\nbar'\n    foo\n  - spam\n  + eggs\n    bar",
+  "statusTrace" : "self = <tests.test_assertions.TestStringAssertions object at 0x10d823190>\n\n    def test_string_3(self):\n>       assert \"foo\\nspam\\nbar\" == \"foo\\neggs\\nbar\"\nE       AssertionError: assert 'foo\\nspam\\nbar' == 'foo\\neggs\\nbar'\nE           foo\nE         - spam\nE         + eggs\nE           bar\n\ntests/test_assertions.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStringAssertions"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69cdcdc93407a799",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'foo\\nspam\\nbar' == 'foo\\neggs\\nbar'\n    foo\n  - spam\n  + eggs\n    bar",
+      "time" : {
+        "start" : 1591176793749,
+        "stop" : 1591176793749,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3fc2cd08e46dee9b.json",
+  "parameterValues" : [ ]
+}

@@ -8,11 +8,12 @@
 
 # @Software: PyCharm
 
-# 获取线索列表
-
+import pytest
+import allure
 from common.test_login import TestLogin,s
 from utils.test_excel import TestExcel
-#from utils.test_response import test_response
+
+# 获取线索列表
 
 actual_result = []
 status_code = []
@@ -23,6 +24,9 @@ data = wb.test_get_data()
 data1 = [item['data'] for item in data]
 expect_result = [item['expect_result'] for item in data]
 
+@allure.feature("线索列表")  # 用feature说明产品需求，可以理解为JIRA中的Epic
+@allure.story("获取线索列表")  # 用story说明用户场景，可以理解为JIRA中的Story
+@pytest.fixture(scope="function")
 def test_cluelist():
 
     url = "https://crm-sea.neibu.com/clueManage/list"

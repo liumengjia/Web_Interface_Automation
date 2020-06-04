@@ -1,0 +1,73 @@
+{
+  "uid" : "ae610584eb470c55",
+  "name" : "test_delete_shopping_trolley",
+  "fullName" : "tests.test_shopping_trolley.TestShoppingTrolley#test_delete_shopping_trolley",
+  "historyId" : "b6da4bda0427c8126528f5b5f455beb8",
+  "time" : {
+    "start" : 1591177964351,
+    "stop" : 1591177964351,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 本次不执行",
+  "statusTrace" : "('tests/test_shopping_trolley.py', 33, 'Skipped: 本次不执行')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除购物车中商品"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping_trolley"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_shopping_trolley"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da7c65d42c018464",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 本次不执行",
+      "time" : {
+        "start" : 1591176793996,
+        "stop" : 1591176793996,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae610584eb470c55.json",
+  "parameterValues" : [ ]
+}

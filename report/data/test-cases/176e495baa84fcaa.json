@@ -1,0 +1,130 @@
+{
+  "uid" : "176e495baa84fcaa",
+  "name" : "test_in_theaters[验证响应中start和count与请求中的参数一致]",
+  "fullName" : "tests.test_in_theaters.TestInTheaters#test_in_theaters",
+  "historyId" : "74b92abf603adb79ad179aa3e68d1ddc",
+  "time" : {
+    "start" : 1591176793789,
+    "stop" : 1591176793845,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "preparation",
+    "time" : {
+      "start" : 1591176793788,
+      "stop" : 1591176793788,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "env",
+    "time" : {
+      "start" : 1591176793786,
+      "stop" : 1591176793788,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9c446e3a36dc762a",
+      "name" : "stdout",
+      "source" : "9c446e3a36dc762a.txt",
+      "type" : "text/plain",
+      "size" : 180
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "preparation::0",
+    "time" : {
+      "start" : 1591176793846,
+      "stop" : 1591176793846,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取电影列表"
+  }, {
+    "name" : "story",
+    "value" : "获取电影列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_in_theaters"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInTheaters"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_in_theaters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'验证响应中start和count与请求中的参数一致'"
+  }, {
+    "name" : "expected",
+    "value" : "{'response': {'title': '正在上映的电影-上海', 'count': 10, 'start': 0}}"
+  }, {
+    "name" : "http",
+    "value" : "{'method': 'GET', 'path': '/v2/movie/in_theaters', 'params': {'apikey': '0df993c66c0c636e29ecbb5344252a4a', 'start': 0, 'count': 10}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "176e495baa84fcaa.json",
+  "parameterValues" : [ "'验证响应中start和count与请求中的参数一致'", "{'response': {'title': '正在上映的电影-上海', 'count': 10, 'start': 0}}", "{'method': 'GET', 'path': '/v2/movie/in_theaters', 'params': {'apikey': '0df993c66c0c636e29ecbb5344252a4a', 'start': 0, 'count': 10}}" ]
+}

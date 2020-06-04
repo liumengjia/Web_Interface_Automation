@@ -1,0 +1,71 @@
+{
+  "uid" : "6437fd141a5a617d",
+  "name" : "test_dict2",
+  "fullName" : "tests.test_assertions.TestCollections#test_dict2",
+  "historyId" : "f18de00a56d94fe7645c550bd93c6d0f",
+  "time" : {
+    "start" : 1591177964086,
+    "stop" : 1591177964087,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'a': 0, 'b': {'c': 0}} == {'a': 0, 'b': {'c': 2}}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': {'c': 0}} != {'b': {'c': 2}}\n  Full diff:\n  - {'a': 0, 'b': {'c': 0}}\n  ?                     ^\n  + {'a': 0, 'b': {'c': 2}}...\n  \n  ...Full output truncated (2 lines hidden), use '-vv' to show",
+  "statusTrace" : "self = <tests.test_assertions.TestCollections object at 0x10d856790>\n\n    def test_dict2(self):\n        exp = {\"a\":0,\"b\":{\"c\":0}}\n        act = {\"a\":0,\"b\":{\"c\":2}}\n>       assert exp == act\nE       AssertionError: assert {'a': 0, 'b': {'c': 0}} == {'a': 0, 'b': {'c': 2}}\nE         Omitting 1 identical items, use -vv to show\nE         Differing items:\nE         {'b': {'c': 0}} != {'b': {'c': 2}}\nE         Full diff:\nE         - {'a': 0, 'b': {'c': 0}}\nE         ?                     ^\nE         + {'a': 0, 'b': {'c': 2}}...\nE         \nE         ...Full output truncated (2 lines hidden), use '-vv' to show\n\ntests/test_assertions.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollections"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76cf81ae9fabcf41",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'a': 0, 'b': {'c': 0}} == {'a': 0, 'b': {'c': 2}}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': {'c': 0}} != {'b': {'c': 2}}\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1591176793765,
+        "stop" : 1591176793765,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6437fd141a5a617d.json",
+  "parameterValues" : [ ]
+}

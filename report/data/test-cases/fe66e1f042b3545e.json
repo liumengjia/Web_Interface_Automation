@@ -1,0 +1,53 @@
+{
+  "uid" : "fe66e1f042b3545e",
+  "name" : "test_last_book_isbn",
+  "fullName" : "tests.test_json_path#test_last_book_isbn",
+  "historyId" : "5556f409e8149ad409291b5b9881416f",
+  "time" : {
+    "start" : 1591176793905,
+    "stop" : 1591176793905,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['0-395-19395-8'] == '1-395-19395-8'",
+  "statusTrace" : "def test_last_book_isbn():\n        last_book_isbn = jsonpath.jsonpath(response, f'$.store.book[-1:].isbn')\n        # last_book_isbn = jsonpath.jsonpath(response, f'$.store.book[(@.length-1)].isbn')\n>       assert last_book_isbn == \"1-395-19395-8\"\nE       AssertionError: assert ['0-395-19395-8'] == '1-395-19395-8'\n\ntests/test_json_path.py:79: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_path"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe66e1f042b3545e.json",
+  "parameterValues" : [ ]
+}

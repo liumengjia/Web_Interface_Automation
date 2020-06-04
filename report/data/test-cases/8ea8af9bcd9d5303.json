@@ -1,0 +1,71 @@
+{
+  "uid" : "8ea8af9bcd9d5303",
+  "name" : "test_string_4",
+  "fullName" : "tests.test_assertions.TestStringAssertions#test_string_4",
+  "historyId" : "fb0432917f1af6b042493e5dfbbbb362",
+  "time" : {
+    "start" : 1591177964074,
+    "stop" : 1591177964074,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <built-in method startswith of str object at 0x10d327330>('S')\n +    where <built-in method startswith of str object at 0x10d327330> = 'streaming'.startswith\n +      where 'streaming' = <function TestStringAssertions.test_string_4.<locals>.func at 0x10d82ac20>()",
+  "statusTrace" : "self = <tests.test_assertions.TestStringAssertions object at 0x10d826650>\n\n    def test_string_4(self):\n        def func():\n            return \"streaming\"\n    \n>       assert func().startswith(\"S\")\nE       AssertionError: assert False\nE        +  where False = <built-in method startswith of str object at 0x10d327330>('S')\nE        +    where <built-in method startswith of str object at 0x10d327330> = 'streaming'.startswith\nE        +      where 'streaming' = <function TestStringAssertions.test_string_4.<locals>.func at 0x10d82ac20>()\n\ntests/test_assertions.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStringAssertions"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1d859f8cdd4c7370",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <built-in method startswith of str object at 0x1030211b0>('S')\n +    where <built-in method startswith of str object at 0x1030211b0> = 'streaming'.startswith\n +      where 'streaming' = <function TestStringAssertions.test_string_4.<locals>.func at 0x103526c20>()",
+      "time" : {
+        "start" : 1591176793753,
+        "stop" : 1591176793753,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8ea8af9bcd9d5303.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "4da0e71b6e09d0b3",
+  "name" : "test_dict",
+  "fullName" : "tests.test_assertions.TestCollections#test_dict",
+  "historyId" : "fbadd6e85ac32000fe33ad71fd497919",
+  "time" : {
+    "start" : 1591177964082,
+    "stop" : 1591177964082,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'a': 0, 'b': 1, 'c': 0} == {'a': 0, 'b': 2, 'd': 0}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': 1} != {'b': 2}\n  Left contains 1 more item:\n  {'c': 0}\n  Right contains 1 more item:\n  {'d': 0}...\n  \n  ...Full output truncated (6 lines hidden), use '-vv' to show",
+  "statusTrace" : "self = <tests.test_assertions.TestCollections object at 0x10d826f10>\n\n    def test_dict(self):\n>       assert {\"a\": 0, \"b\": 1, \"c\": 0} == {\"a\": 0, \"b\": 2, \"d\": 0}\nE       AssertionError: assert {'a': 0, 'b': 1, 'c': 0} == {'a': 0, 'b': 2, 'd': 0}\nE         Omitting 1 identical items, use -vv to show\nE         Differing items:\nE         {'b': 1} != {'b': 2}\nE         Left contains 1 more item:\nE         {'c': 0}\nE         Right contains 1 more item:\nE         {'d': 0}...\nE         \nE         ...Full output truncated (6 lines hidden), use '-vv' to show\n\ntests/test_assertions.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollections"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6d94bf4b18ddb5d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'a': 0, 'b': 1, 'c': 0} == {'a': 0, 'b': 2, 'd': 0}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': 1} != {'b': 2}\n  Left contains 1 more item:\n  {'c': 0}\n  Right contains 1 more item:\n  {'d': 0}...\n  \n  ...Full output truncated (2 lines hidden), use '-vv' to show",
+      "time" : {
+        "start" : 1591176793760,
+        "stop" : 1591176793761,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4da0e71b6e09d0b3.json",
+  "parameterValues" : [ ]
+}

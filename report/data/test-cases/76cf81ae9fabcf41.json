@@ -1,0 +1,56 @@
+{
+  "uid" : "76cf81ae9fabcf41",
+  "name" : "test_dict2",
+  "fullName" : "tests.test_assertions.TestCollections#test_dict2",
+  "historyId" : "f18de00a56d94fe7645c550bd93c6d0f",
+  "time" : {
+    "start" : 1591176793765,
+    "stop" : 1591176793765,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'a': 0, 'b': {'c': 0}} == {'a': 0, 'b': {'c': 2}}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': {'c': 0}} != {'b': {'c': 2}}\n  Use -v to get the full diff",
+  "statusTrace" : "self = <tests.test_assertions.TestCollections object at 0x103552110>\n\n    def test_dict2(self):\n        exp = {\"a\":0,\"b\":{\"c\":0}}\n        act = {\"a\":0,\"b\":{\"c\":2}}\n>       assert exp == act\nE       AssertionError: assert {'a': 0, 'b': {'c': 0}} == {'a': 0, 'b': {'c': 2}}\nE         Omitting 1 identical items, use -vv to show\nE         Differing items:\nE         {'b': {'c': 0}} != {'b': {'c': 2}}\nE         Use -v to get the full diff\n\ntests/test_assertions.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollections"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76cf81ae9fabcf41.json",
+  "parameterValues" : [ ]
+}

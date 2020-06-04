@@ -1,0 +1,187 @@
+{
+  "uid" : "e81bdc2b1eeb211d",
+  "name" : "test_add_shopping_trolley",
+  "fullName" : "tests.test_shopping_trolley.TestShoppingTrolley#test_add_shopping_trolley",
+  "historyId" : "6456bafca9a5734d4002123309cf51b9",
+  "time" : {
+    "start" : 1591177964341,
+    "stop" : 1591177964343,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'success' == 'failed'\n  - success\n  + failed",
+  "statusTrace" : "self = <tests.test_shopping_trolley.TestShoppingTrolley object at 0x10ea0e8d0>\n\n    @allure.story('加入购物车')  # 用story说明用户场景，可以理解为JIRA中的Story\n    def test_add_shopping_trolley(self):\n        login('user', 'password')  # 步骤1，调用“step函数”\n        with allure.step(\"浏览商品\"):  # 步骤2，step的参数将会打印到测试报告中\n            allure.attach('笔记本', '商品1')  # attach可以打印一些附加信息\n            allure.attach('手机', '商品2')\n        with allure.step(\"点击商品\"):  # 步骤3\n            pass\n        with allure.step(\"校验结果\"):  # 步骤4\n            allure.attach('添加购物车成功', '期望结果')\n            allure.attach('添加购物车失败', '实际结果')\n>           assert 'success' == 'failed'\nE           AssertionError: assert 'success' == 'failed'\nE             - success\nE             + failed\n\ntests/test_shopping_trolley.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'success' == 'failed'\n  - success\n  + failed",
+    "statusTrace" : "self = <tests.test_shopping_trolley.TestShoppingTrolley object at 0x10ea0e8d0>\n\n    @allure.story('加入购物车')  # 用story说明用户场景，可以理解为JIRA中的Story\n    def test_add_shopping_trolley(self):\n        login('user', 'password')  # 步骤1，调用“step函数”\n        with allure.step(\"浏览商品\"):  # 步骤2，step的参数将会打印到测试报告中\n            allure.attach('笔记本', '商品1')  # attach可以打印一些附加信息\n            allure.attach('手机', '商品2')\n        with allure.step(\"点击商品\"):  # 步骤3\n            pass\n        with allure.step(\"校验结果\"):  # 步骤4\n            allure.attach('添加购物车成功', '期望结果')\n            allure.attach('添加购物车失败', '实际结果')\n>           assert 'success' == 'failed'\nE           AssertionError: assert 'success' == 'failed'\nE             - success\nE             + failed\n\ntests/test_shopping_trolley.py:27: AssertionError",
+    "steps" : [ {
+      "name" : "用户登录",
+      "time" : {
+        "start" : 1591177964341,
+        "stop" : 1591177964341,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'user'"
+      }, {
+        "name" : "pwd",
+        "value" : "'password'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "浏览商品",
+      "time" : {
+        "start" : 1591177964341,
+        "stop" : 1591177964342,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f92fe9cf78d577f5",
+        "name" : "商品1",
+        "source" : "f92fe9cf78d577f5.attach",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1900a44b184dd756",
+        "name" : "商品2",
+        "source" : "1900a44b184dd756.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "点击商品",
+      "time" : {
+        "start" : 1591177964342,
+        "stop" : 1591177964342,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1591177964342,
+        "stop" : 1591177964343,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'success' == 'failed'\n  - success\n  + failed\n",
+      "statusTrace" : "  File \"/Users/liumengjia/Documents/Project/Interface_Automation/tests/test_shopping_trolley.py\", line 27, in test_add_shopping_trolley\n    assert 'success' == 'failed'\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "939970f6063b942a",
+        "name" : "期望结果",
+        "source" : "939970f6063b942a.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "6adf8744410896e8",
+        "name" : "实际结果",
+        "source" : "6adf8744410896e8.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d955ff448179b9c7",
+      "name" : "stdout",
+      "source" : "d955ff448179b9c7.txt",
+      "type" : "text/plain",
+      "size" : 14
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "加入购物车"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_shopping_trolley"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShoppingTrolley"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_shopping_trolley"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e8f5beff7e38cf17",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'success' == 'failed'\n  - success\n  + failed",
+      "time" : {
+        "start" : 1591176793987,
+        "stop" : 1591176793989,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e81bdc2b1eeb211d.json",
+  "parameterValues" : [ ]
+}

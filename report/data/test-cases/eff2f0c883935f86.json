@@ -1,0 +1,68 @@
+{
+  "uid" : "eff2f0c883935f86",
+  "name" : "test_json_schema_validator",
+  "fullName" : "tests.test_json_schema#test_json_schema_validator",
+  "historyId" : "6d465f85668edf3061a37b9da5a728a1",
+  "time" : {
+    "start" : 1591177964266,
+    "stop" : 1591177964266,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "jsonschema.exceptions.ValidationError: 20 is greater than the maximum of 10\n\nFailed validating 'maximum' in schema['properties']['data']['properties']['cur_num']:\n    {'exclusiveMaximum': False,\n     'maximum': 10,\n     'minimum': 1,\n     'type': 'integer'}\n\nOn instance['data']['cur_num']:\n    20",
+  "statusTrace" : "def test_json_schema_validator():\n        schema = {\n            \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n            \"type\": \"object\",\n            \"properties\": {\n                \"data\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                        \"cur_num\": {\n                            \"type\": \"integer\",\n                            \"minimum\": 1,\n                            \"maximum\": 10,\n                            \"exclusiveMaximum\": False\n                        },\n                        \"keyword\": {\n                            \"type\": \"string\",\n                            \"minLength\": 1,\n                            \"maxLength\": 10\n                        },\n                        \"vip\": {\n                            \"type\": \"boolean\"\n                        },\n                        \"list\": {\n                            \"type\": \"array\",\n                            \"minItems\": 1,\n                            \"maxItems\": 10,\n                            \"items\": {\n                                \"type\": \"object\",\n                                \"properties\": {\n                                    \"album_id\": {\n                                        \"type\": \"integer\"\n                                    },\n                                    \"publish\": {\n                                        \"type\": \"string\",\n                                        \"format\": \"date-time\"\n                                    }\n                                },\n                                \"required\": [\n                                    \"album_id\",\n                                    \"publish\"\n                                ]\n                            }\n                        }\n                    },\n                    \"required\": [\n                        \"cur_num\",\n                        \"keyword\",\n                        \"vip\",\n                        \"list\"\n                    ]\n                }\n            },\n            \"required\": [\n                \"data\"\n            ]\n        }\n        respose_data = {\n            \"data\": {\n                \"cur_num\": 20,\n                \"keyword\": \"朴树\",\n                \"vip\": True,\n                \"list\": [\n                    {\n                        \"album_id\": 2032482,\n                        \"publish\": \"2018-11-13T20:20:39+00:00\"\n                    },\n                    {\n                        \"album_id\": 7986,\n                        \"publish\": \"2018-11-13T20:20:39+00:00\"\n                    }\n                ]\n            }\n        }\n        va = validators.Draft4Validator(schema)\n>       va.validate(respose_data)\n\ntests/test_json_schema.py:87: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <jsonschema.validators.create.<locals>.Validator object at 0x10d855750>\nargs = ({'data': {'cur_num': 20, 'keyword': '朴树', 'list': [{'album_id': 2032482, 'publish': '2018-11-13T20:20:39+00:00'}, {'album_id': 7986, 'publish': '2018-11-13T20:20:39+00:00'}], 'vip': True}},)\nkwargs = {}, error = <ValidationError: '20 is greater than the maximum of 10'>\n\n    def validate(self, *args, **kwargs):\n        for error in self.iter_errors(*args, **kwargs):\n>           raise error\nE           jsonschema.exceptions.ValidationError: 20 is greater than the maximum of 10\nE           \nE           Failed validating 'maximum' in schema['properties']['data']['properties']['cur_num']:\nE               {'exclusiveMaximum': False,\nE                'maximum': 10,\nE                'minimum': 1,\nE                'type': 'integer'}\nE           \nE           On instance['data']['cur_num']:\nE               20\n\n/usr/local/lib/python3.7/site-packages/jsonschema/validators.py:353: ValidationError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_schema"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_schema"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7d99bd19c9e544e",
+      "status" : "broken",
+      "statusDetails" : "jsonschema.exceptions.ValidationError: 20 is greater than the maximum of 10\n\nFailed validating 'maximum' in schema['properties']['data']['properties']['cur_num']:\n    {'exclusiveMaximum': False,\n     'maximum': 10,\n     'minimum': 1,\n     'type': 'integer'}\n\nOn instance['data']['cur_num']:\n    20",
+      "time" : {
+        "start" : 1591176793920,
+        "stop" : 1591176793920,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eff2f0c883935f86.json",
+  "parameterValues" : [ ]
+}

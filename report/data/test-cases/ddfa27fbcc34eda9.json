@@ -1,0 +1,56 @@
+{
+  "uid" : "ddfa27fbcc34eda9",
+  "name" : "test_list2",
+  "fullName" : "tests.test_assertions.TestCollections#test_list2",
+  "historyId" : "8799213a80221460c5a992f412a8b00c",
+  "time" : {
+    "start" : 1591176793772,
+    "stop" : 1591176793773,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert [0, 1, 2] == [0, 1, [1, 2]]\n  At index 2 diff: 2 != [1, 2]\n  Use -v to get the full diff",
+  "statusTrace" : "self = <tests.test_assertions.TestCollections object at 0x103556150>\n\n    def test_list2(self):\n>       assert [0,1,2] == [0,1,[1,2]]\nE       assert [0, 1, 2] == [0, 1, [1, 2]]\nE         At index 2 diff: 2 != [1, 2]\nE         Use -v to get the full diff\n\ntests/test_assertions.py:50: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCollections"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddfa27fbcc34eda9.json",
+  "parameterValues" : [ ]
+}

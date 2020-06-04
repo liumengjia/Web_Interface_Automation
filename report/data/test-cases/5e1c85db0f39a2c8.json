@@ -1,0 +1,51 @@
+{
+  "uid" : "5e1c85db0f39a2c8",
+  "name" : "test_slice_with_step",
+  "fullName" : "tests.test_json_path#test_slice_with_step",
+  "historyId" : "ed2c6ce4f1fc21fd68e0ff2d8e776174",
+  "time" : {
+    "start" : 1591176793911,
+    "stop" : 1591176793911,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_path"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e1c85db0f39a2c8.json",
+  "parameterValues" : [ ]
+}

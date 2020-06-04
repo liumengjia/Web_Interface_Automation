@@ -1,0 +1,53 @@
+{
+  "uid" : "f4ff9fb1337d51a1",
+  "name" : "test_2books_cheap_than_10",
+  "fullName" : "tests.test_json_path#test_2books_cheap_than_10",
+  "historyId" : "93799719dae2347edf65381bc2104c04",
+  "time" : {
+    "start" : 1591176793913,
+    "stop" : 1591176793913,
+    "duration" : 0
+  },
+  "description" : "\n    '$..book[?(@.price<10)]'表示根节点下book属性的所有price小于10的元素\n    ",
+  "descriptionHtml" : "<pre><code>'$..book[?(@.price&lt;10)]'表示根节点下book属性的所有price小于10的元素\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_path"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4ff9fb1337d51a1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,63 @@
+{
+  "uid" : "d04bb8ebfe78aa7a",
+  "name" : "test_authors",
+  "fullName" : "tests.test_json_path#test_authors",
+  "historyId" : "6b7a3e10181021d4e6a1473e2305a905",
+  "time" : {
+    "start" : 1591177964233,
+    "stop" : 1591177964233,
+    "duration" : 0
+  },
+  "description" : "\n    '$.store.book[*].author'表示store节点下book结点下所有对象的author值\n    ",
+  "descriptionHtml" : "<pre><code>'$.store.book[*].author'表示store节点下book结点下所有对象的author值\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_path"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd9114b81d693e30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591176793891,
+        "stop" : 1591176793892,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d04bb8ebfe78aa7a.json",
+  "parameterValues" : [ ]
+}

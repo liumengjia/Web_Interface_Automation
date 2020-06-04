@@ -1,0 +1,76 @@
+{
+  "uid" : "84e00a9051885f70",
+  "name" : "test_slow",
+  "fullName" : "tests.test_marks.TestMarks#test_slow",
+  "historyId" : "24b8435a3ca9cff8df9466c08f1734ab",
+  "time" : {
+    "start" : 1591177964336,
+    "stop" : 1591177964336,
+    "duration" : 0
+  },
+  "description" : "\n        自定义标签\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    自定义标签\n    :return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <tests.test_marks.TestMarks object at 0x10ea0ebd0>\n\n    @pytest.mark.slow\n    def test_slow(self):\n        \"\"\"\n        自定义标签\n        :return:\n        \"\"\"\n>       assert 0\nE       assert 0\n\ntests/test_marks.py:55: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "slow"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_marks"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMarks"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_marks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "942c7c7eb4bd7f0f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1591176793983,
+        "stop" : 1591176793984,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "slow" ]
+  },
+  "source" : "84e00a9051885f70.json",
+  "parameterValues" : [ ]
+}

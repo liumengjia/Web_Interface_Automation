@@ -1,0 +1,4 @@
+/Users/liumengjia/Documents/Project/Interface_Automation/config/prod/config.yaml
+{'host': {'douban': 'http://api.douban.com'}}
+在数据库中准备测试数据
+清理测试数据

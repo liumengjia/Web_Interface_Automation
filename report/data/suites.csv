@@ -1,0 +1,65 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_json_path","","","","test_2books_cheap_than_10","
+    '$..book[?(@.price<10)]'表示根节点下book属性的所有price小于10的元素
+    "
+"broken","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_json_schema","","","","test_json_schema_validator",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_assertions","TestCollections","","","test_list",""
+"skipped","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_marks","TestMarks","","","test_xfail_not_run","
+        run=False，表示这条用例不执行
+        :return:
+        "
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_marks","TestMarks","","","test_skip","
+        低于Python3.7版本不执行此条测试用例
+        :return:
+        "
+"failed","Wed Jun 03 17:52:45 CST 2020","Wed Jun 03 17:52:45 CST 2020","38","tests","test_smtpsimple","","","","test_ehlo",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_assertions","","","","test_func",""
+"passed","Wed Jun 03 17:52:45 CST 2020","Wed Jun 03 17:52:45 CST 2020","1","tests","test_time","","","","test_time_distance_v0[a1-b1-expected1]",""
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_json_path","","","","test_authors","
+    '$.store.book[*].author'表示store节点下book结点下所有对象的author值
+    "
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_assertions","TestStringAssertions","","","test_string_3",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_json_path","","","","test_third_book","
+    '$..book[2]'表示根节点下递归查找所有book属性中第3个对象，
+
+    "
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_assertions","TestCollections","","","test_dict",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_json_path","","","","test_last_book_isbn",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_assertions","TestStringAssertions","","","test_string_4",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","2","tests","test_shopping_trolley","TestShoppingTrolley","","","test_add_shopping_trolley",""
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_assertions","","","","test_zero_divison",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_json_path","","","","test_has_color","
+    '$..[?(@.color)]'表示根节点下具有color属性的对象
+    "
+"skipped","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_marks","TestMarks","","","test_the_unknown","
+        跳过不执行，未实现
+        :return:
+        "
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_assertions","TestCollections","","","test_list3",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_assertions","TestCollections","","","test_set",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_marks","TestMarks","","","test_slow","
+        自定义标签
+        :return:
+        "
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_shopping_trolley","TestShoppingTrolley","","","test_edit_shopping_trolley",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_assertions","TestCollections","","","test_list2",""
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_json_path","","","","test_slice_with_step",""
+"failed","Wed Jun 03 17:52:43 CST 2020","Wed Jun 03 17:52:43 CST 2020","2","tests","test_assertions","TestStringAssertions","","","test_string_1",""
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_json_path","","","","test_all_goods","'$.store.*'，表示根节点$下store属性下的所有对象，没写"
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","62","tests","test_in_theaters","TestInTheaters","","","test_in_theaters[验证响应中start和count与请求中的参数一致]",""
+"passed","Wed Jun 03 17:52:45 CST 2020","Wed Jun 03 17:52:45 CST 2020","0","tests","test_time","","","","test_time_distance_v0[a0-b0-expected0]",""
+"skipped","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_marks","TestMarks","","","test_xfail","
+        Indicate that you expect it to fail
+        这条用例执行失败时，测试结果被标记为xfail(expected to fail)，并且不打印错误信息。
+        这条用例执行成功时，测试结果被标记为xpassed(unexpectedly passing)
+        :return:
+        "
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_json_path","","","","test_12_books_price","
+    '$..book[0,1]'表示根节点下递归查找所有的book属性值的第0个和第1个元素，
+    "
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_json_path","","","","test_all_price","'$.store..price' 表示根节点的store属性下，递归查找price属性的值
+    '$..price' 表示根节点下，递归查找price属性的值"
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_assertions","TestStringAssertions","","","test_string_2",""
+"passed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","46","tests","test_in_theaters","TestInTheaters","","","test_in_theaters[验证响应中title是""正在上映的电影-北京""]",""
+"skipped","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","0","tests","test_shopping_trolley","TestShoppingTrolley","","","test_delete_shopping_trolley",""
+"failed","Wed Jun 03 17:52:44 CST 2020","Wed Jun 03 17:52:44 CST 2020","1","tests","test_assertions","TestCollections","","","test_dict2",""

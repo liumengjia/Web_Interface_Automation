@@ -1,0 +1,70 @@
+{
+  "uid" : "532d96c83cf47f95",
+  "name" : "test_all_goods",
+  "fullName" : "tests.test_json_path#test_all_goods",
+  "historyId" : "8028e6f4ac19ae14f86a77aea6c5cfb2",
+  "time" : {
+    "start" : 1591176793895,
+    "stop" : 1591176793895,
+    "duration" : 0
+  },
+  "description" : "'$.store.*'，表示根节点$下store属性下的所有对象，没写",
+  "descriptionHtml" : "<p>'$.store.*'，表示根节点$下store属性下的所有对象，没写</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "'$.store.*'，表示根节点$下store属性下的所有对象，没写",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a23a7917ddbdc7a",
+      "name" : "stdout",
+      "source" : "8a23a7917ddbdc7a.txt",
+      "type" : "text/plain",
+      "size" : 479
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_path"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "532d96c83cf47f95.json",
+  "parameterValues" : [ ]
+}

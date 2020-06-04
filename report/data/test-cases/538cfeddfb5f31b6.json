@@ -1,0 +1,71 @@
+{
+  "uid" : "538cfeddfb5f31b6",
+  "name" : "test_string_2",
+  "fullName" : "tests.test_assertions.TestStringAssertions#test_string_2",
+  "historyId" : "beecfaa6debd3672eebec86c96e2bfd8",
+  "time" : {
+    "start" : 1591177964065,
+    "stop" : 1591177964065,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'foo 1 bar' == 'foo 2 bar'\n  - foo 1 bar\n  ?     ^\n  + foo 2 bar\n  ?     ^",
+  "statusTrace" : "self = <tests.test_assertions.TestStringAssertions object at 0x10d7d48d0>\n\n    def test_string_2(self):\n>       assert \"foo 1 bar\" == \"foo 2 bar\"\nE       AssertionError: assert 'foo 1 bar' == 'foo 2 bar'\nE         - foo 1 bar\nE         ?     ^\nE         + foo 2 bar\nE         ?     ^\n\ntests/test_assertions.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStringAssertions"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "220419dcf78d5997",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'foo 1 bar' == 'foo 2 bar'\n  - foo 1 bar\n  ?     ^\n  + foo 2 bar\n  ?     ^",
+      "time" : {
+        "start" : 1591176793745,
+        "stop" : 1591176793745,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "538cfeddfb5f31b6.json",
+  "parameterValues" : [ ]
+}

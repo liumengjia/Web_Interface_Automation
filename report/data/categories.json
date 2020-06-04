@@ -1,0 +1,315 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'spam' == 'eggs'\n  - spam\n  + eggs",
+      "children" : [ {
+        "name" : "test_string_1",
+        "uid" : "8c55dcd0d369d0cc",
+        "parentUid" : "589b96d3fc978be4d11630ddfb583656",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177963997,
+          "stop" : 1591177963999,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "589b96d3fc978be4d11630ddfb583656"
+    }, {
+      "name" : "AssertionError: assert 'foo 1 bar' == 'foo 2 bar'\n  - foo 1 bar\n  ?     ^\n  + foo 2 bar\n  ?     ^",
+      "children" : [ {
+        "name" : "test_string_2",
+        "uid" : "538cfeddfb5f31b6",
+        "parentUid" : "6a86dec60d1f37449594baf1e803d183",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964065,
+          "stop" : 1591177964065,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a86dec60d1f37449594baf1e803d183"
+    }, {
+      "name" : "AssertionError: assert 'foo\\nspam\\nbar' == 'foo\\neggs\\nbar'\n    foo\n  - spam\n  + eggs\n    bar",
+      "children" : [ {
+        "name" : "test_string_3",
+        "uid" : "3fc2cd08e46dee9b",
+        "parentUid" : "d838b06521f94a0e4d8dae541730acf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964069,
+          "stop" : 1591177964070,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d838b06521f94a0e4d8dae541730acf5"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <built-in method startswith of str object at 0x10d327330>('S')\n +    where <built-in method startswith of str object at 0x10d327330> = 'streaming'.startswith\n +      where 'streaming' = <function TestStringAssertions.test_string_4.<locals>.func at 0x10d82ac20>()",
+      "children" : [ {
+        "name" : "test_string_4",
+        "uid" : "8ea8af9bcd9d5303",
+        "parentUid" : "3697f2cf3e8654fa52ee456bb8a03e06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964074,
+          "stop" : 1591177964074,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3697f2cf3e8654fa52ee456bb8a03e06"
+    }, {
+      "name" : "AssertionError: assert [1, 2, 3] == [1, 2, 4]\n  At index 2 diff: 3 != 4\n  Full diff:\n  - [1, 2, 3]\n  ?        ^\n  + [1, 2, 4]\n  ?        ^",
+      "children" : [ {
+        "name" : "test_func",
+        "uid" : "5a3408bb3dc8afed",
+        "parentUid" : "1c83114f065ca92021417e9c6b96cab8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964078,
+          "stop" : 1591177964078,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c83114f065ca92021417e9c6b96cab8"
+    }, {
+      "name" : "AssertionError: assert {'a': 0, 'b': 1, 'c': 0} == {'a': 0, 'b': 2, 'd': 0}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': 1} != {'b': 2}\n  Left contains 1 more item:\n  {'c': 0}\n  Right contains 1 more item:\n  {'d': 0}...\n  \n  ...Full output truncated (6 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "test_dict",
+        "uid" : "4da0e71b6e09d0b3",
+        "parentUid" : "82611d69ff19d8518ac1197c95dd1e2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964082,
+          "stop" : 1591177964082,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82611d69ff19d8518ac1197c95dd1e2a"
+    }, {
+      "name" : "AssertionError: assert {'a': 0, 'b': {'c': 0}} == {'a': 0, 'b': {'c': 2}}\n  Omitting 1 identical items, use -vv to show\n  Differing items:\n  {'b': {'c': 0}} != {'b': {'c': 2}}\n  Full diff:\n  - {'a': 0, 'b': {'c': 0}}\n  ?                     ^\n  + {'a': 0, 'b': {'c': 2}}...\n  \n  ...Full output truncated (2 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "test_dict2",
+        "uid" : "6437fd141a5a617d",
+        "parentUid" : "44cd817b7103180d45452b46b3f1b21a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964086,
+          "stop" : 1591177964087,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44cd817b7103180d45452b46b3f1b21a"
+    }, {
+      "name" : "AssertionError: assert [0, 1, 2] == [0, 1, 3]\n  At index 2 diff: 2 != 3\n  Full diff:\n  - [0, 1, 2]\n  ?        ^\n  + [0, 1, 3]\n  ?        ^",
+      "children" : [ {
+        "name" : "test_list",
+        "uid" : "49d7bb48f42bdd84",
+        "parentUid" : "4ec604f653518b1f216122a0c61aa123",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964091,
+          "stop" : 1591177964091,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ec604f653518b1f216122a0c61aa123"
+    }, {
+      "name" : "AssertionError: assert [0, 1, 2] == [0, 1, [1, 2]]\n  At index 2 diff: 2 != [1, 2]\n  Full diff:\n  - [0, 1, 2]\n  + [0, 1, [1, 2]]\n  ?        ++++  +",
+      "children" : [ {
+        "name" : "test_list2",
+        "uid" : "86ee9880c2f7c5ad",
+        "parentUid" : "abe1bc4c7c603421fd05e5290a7e7b92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964095,
+          "stop" : 1591177964096,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abe1bc4c7c603421fd05e5290a7e7b92"
+    }, {
+      "name" : "AssertionError: assert 2 in [0, 1, [1, 2]]",
+      "children" : [ {
+        "name" : "test_list3",
+        "uid" : "18255ff100e2372d",
+        "parentUid" : "a069b0d780395b100fcf64b5e4c5967e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964100,
+          "stop" : 1591177964100,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a069b0d780395b100fcf64b5e4c5967e"
+    }, {
+      "name" : "AssertionError: assert {0, 1, 11, 23} == {0, 2, 11}\n  Extra items in the left set:\n  1\n  23\n  Extra items in the right set:\n  2\n  Full diff:\n  - {0, 1, 11, 23}...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "test_set",
+        "uid" : "f7b15ae4edac58b5",
+        "parentUid" : "c0d64eeee5d99fbbaef87c3d65d17133",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964104,
+          "stop" : 1591177964105,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0d64eeee5d99fbbaef87c3d65d17133"
+    }, {
+      "name" : "AssertionError: assert 'Moby Dick' == 'Moby Dick!'\n  - Moby Dick\n  + Moby Dick!\n  ?          +",
+      "children" : [ {
+        "name" : "test_third_book",
+        "uid" : "d1466072977d24b1",
+        "parentUid" : "0b345ca148d358a139ad6687654e8975",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964240,
+          "stop" : 1591177964240,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b345ca148d358a139ad6687654e8975"
+    }, {
+      "name" : "AssertionError: assert ['0-395-19395-8'] == '1-395-19395-8'\n  -['0-395-19395-8']\n  +'1-395-19395-8'",
+      "children" : [ {
+        "name" : "test_last_book_isbn",
+        "uid" : "a0771d09db7e2428",
+        "parentUid" : "4c18df5bca7a5c7450c66fbbc6aa7ea8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964245,
+          "stop" : 1591177964246,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c18df5bca7a5c7450c66fbbc6aa7ea8"
+    }, {
+      "name" : "AssertionError: assert 'green' == 'red'\n  - green\n  + red",
+      "children" : [ {
+        "name" : "test_has_color",
+        "uid" : "17e91ec538b76066",
+        "parentUid" : "4fdc0aa82444d014245aaf4ef9c35db1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964259,
+          "stop" : 1591177964260,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fdc0aa82444d014245aaf4ef9c35db1"
+    }, {
+      "name" : "AssertionError: assert 0",
+      "children" : [ {
+        "name" : "test_slow",
+        "uid" : "84e00a9051885f70",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964336,
+          "stop" : 1591177964336,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ehlo",
+        "uid" : "d5851ea336847aed",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177965618,
+          "stop" : 1591177965656,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c77d7ae15b4ab6e63220cefc19b68f"
+    }, {
+      "name" : "AssertionError: assert 'success' == 'failed'\n  - success\n  + failed",
+      "children" : [ {
+        "name" : "test_add_shopping_trolley",
+        "uid" : "e81bdc2b1eeb211d",
+        "parentUid" : "0ca55b85b8d2a39baedc01d24f52900a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591177964341,
+          "stop" : 1591177964343,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ca55b85b8d2a39baedc01d24f52900a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "jsonschema.exceptions.ValidationError: 20 is greater than the maximum of 10\n\nFailed validating 'maximum' in schema['properties']['data']['properties']['cur_num']:\n    {'exclusiveMaximum': False,\n     'maximum': 10,\n     'minimum': 1,\n     'type': 'integer'}\n\nOn instance['data']['cur_num']:\n    20",
+      "children" : [ {
+        "name" : "test_json_schema_validator",
+        "uid" : "eff2f0c883935f86",
+        "parentUid" : "0aca064c66c8648178c2fee46b006a8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591177964266,
+          "stop" : 1591177964266,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0aca064c66c8648178c2fee46b006a8d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

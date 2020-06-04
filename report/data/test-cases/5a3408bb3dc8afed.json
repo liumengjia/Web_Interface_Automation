@@ -1,0 +1,68 @@
+{
+  "uid" : "5a3408bb3dc8afed",
+  "name" : "test_func",
+  "fullName" : "tests.test_assertions#test_func",
+  "historyId" : "c7deb80c02a641c44581a601d8aa78ec",
+  "time" : {
+    "start" : 1591177964078,
+    "stop" : 1591177964078,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert [1, 2, 3] == [1, 2, 4]\n  At index 2 diff: 3 != 4\n  Full diff:\n  - [1, 2, 3]\n  ?        ^\n  + [1, 2, 4]\n  ?        ^",
+  "statusTrace" : "def test_func():\n        def func():\n            return [1,2,3]\n    \n>       assert func() == [1,2,4]\nE       assert [1, 2, 3] == [1, 2, 4]\nE         At index 2 diff: 3 != 4\nE         Full diff:\nE         - [1, 2, 3]\nE         ?        ^\nE         + [1, 2, 4]\nE         ?        ^\n\ntests/test_assertions.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertions"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78362-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3ebdf08ab14408c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert [1, 2, 3] == [1, 2, 4]\n  At index 2 diff: 3 != 4\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1591176793757,
+        "stop" : 1591176793757,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a3408bb3dc8afed.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "61346dfcedbdc435",
+  "name" : "test_all_price",
+  "fullName" : "tests.test_json_path#test_all_price",
+  "historyId" : "28239e480d72964ebdc406c0c1eabf02",
+  "time" : {
+    "start" : 1591176793897,
+    "stop" : 1591176793898,
+    "duration" : 1
+  },
+  "description" : "'$.store..price' 表示根节点的store属性下，递归查找price属性的值\n    '$..price' 表示根节点下，递归查找price属性的值",
+  "descriptionHtml" : "<p>'$.store..price' 表示根节点的store属性下，递归查找price属性的值\n'$..price' 表示根节点下，递归查找price属性的值</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_json_path"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_json_path"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61346dfcedbdc435.json",
+  "parameterValues" : [ ]
+}

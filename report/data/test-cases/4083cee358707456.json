@@ -1,0 +1,56 @@
+{
+  "uid" : "4083cee358707456",
+  "name" : "test_skip",
+  "fullName" : "tests.test_marks.TestMarks#test_skip",
+  "historyId" : "eb011bb6dddaca67825f907e6ca79aea",
+  "time" : {
+    "start" : 1591176793939,
+    "stop" : 1591176793939,
+    "duration" : 0
+  },
+  "description" : "\n        低于Python3.7版本不执行此条测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    低于Python3.7版本不执行此条测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_marks"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMarks"
+  }, {
+    "name" : "host",
+    "value" : "LIUMENGJIAdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "78122-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_marks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4083cee358707456.json",
+  "parameterValues" : [ ]
+}

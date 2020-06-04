@@ -1,0 +1,26 @@
+{
+  "total" : 32,
+  "items" : [ {
+    "uid" : "13107ad838d9e0b8da43e1b977ff0d34",
+    "name" : "购物车功能",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "ab5e9c410b7333d3e15b816094ba5c5c",
+    "name" : "获取电影列表",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
