@@ -9,7 +9,6 @@
 # @Software: PyCharm
 
 from openpyxl import load_workbook
-import unittest
 
 expect_data = []
 actual_data = []

@@ -53,12 +53,10 @@ class TestExcel():
     def test_save_data(self):
         self.wb.save(self.file_name)
 
-
 if __name__=='__main__':
     # 使用__init__方法实现：只要实例化类时候就会调用__init__方法
 
     '''写入数据，如(2,3,"test"),第二行第三列写入数据"test" '''
+    TestExcel('../data/user.xlsx','accountPwdLogin').test_write_data(2,3,'test')
 
-    TestExcel('../data/test_clue.xlsx','addNewClue').test_write_data(2,3,'extra')
-
-    print(TestExcel('../data/test_clue.xlsx','addNewClue').test_get_data())
+    print(TestExcel('../data/user.xlsx','accountPwdLogin').test_get_data())
